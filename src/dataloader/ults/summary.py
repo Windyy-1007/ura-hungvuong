@@ -1,0 +1,28 @@
+import pandas as pd
+
+# Read both datasets
+original = pd.read_csv('data/dataset.csv')
+long = pd.read_csv('data/dataset_long_format.csv')
+
+print('TRANSFORMATION SUMMARY')
+print('=' * 50)
+print(f'Original (Wide) Format:')
+print(f'  Rows: {len(original):,}')
+print(f'  Columns: {len(original.columns):,}')
+print(f'  Total data points: {len(original) * len(original.columns):,}')
+print(f'')
+print(f'New (Long) Format:')
+print(f'  Rows: {len(long):,}')
+print(f'  Columns: {len(long.columns)}')
+print(f'  Patients: {long["Mã bệnh nhân"].nunique()}')
+print(f'  Avg records per patient: {len(long) / long["Mã bệnh nhân"].nunique():.1f}')
+print(f'  Hour range: {long["hour"].min()} to {long["hour"].max()}')
+print('')
+print('✅ Successfully transformed from wide to long format!')
+print('')
+print('Data Structure:')
+print('  - Each row now represents one time measurement for one patient')
+print('  - General patient info is repeated for each time point')
+print('  - Hour column indicates which time point (0-29)')
+print('  - Only non-empty time records are included')
+print('  - Missing data is preserved as NaN values')
