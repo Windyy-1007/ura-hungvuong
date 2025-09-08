@@ -1,0 +1,250 @@
+MEDICAL PREDICTION MODELS - EXPORT SUMMARY
+============================================================
+Export Date: 2025-09-08 21:01:34
+Total Models: 21
+Data Source: C:\Projects\URA\ura-hungvuong\data\dataset_long_format_normalized_labeled.csv
+
+PERFORMANCE SUMMARY:
+------------------------------
+Average Test Accuracy: 0.8971 ± 0.0712
+Average AUC Score: 0.8922 ± 0.0491
+Best Model Accuracy: 0.9814
+Worst Model Accuracy: 0.7864
+
+MODELS BY CATEGORY:
+------------------------------
+Assessment Models: 10
+Treatment Models: 11
+
+TOP 15 PERFORMING MODELS:
+--------------------------------------------------
+Rank Accuracy AUC      Target
+--------------------------------------------------
+1    0.9814   0.9901   Reassess_Later
+2    0.9783   0.8759   Contractions_Complete
+3    0.9783   0.9022   CTG_II_Guidance
+4    0.9721   0.9123   Patient_Pain
+5    0.9659   0.9798   Position_Unfavorable
+6    0.9659   0.8348   Delivery_Prep_Hemorrhage
+7    0.9598   0.9429   CTG_II_Position_Unfavorable
+8    0.9598   0.9729   Fetal_Resuscitation
+9    0.9567   0.9517   Patient_Stable
+10   0.9505   0.8186   Notify_Attending
+11   0.9226   0.9142   Prevent_Hemorrhage
+12   0.8452   0.8784   Monitor_Labor
+13   0.8421   0.8622   Prepare_Delivery
+14   0.8421   0.8622   Neonatal_Resuscitation
+15   0.8390   0.8583   Multiple_Interventions
+
+DETAILED MODEL INFORMATION:
+--------------------------------------------------
+
+Kế hoạch (xử trí)_Reassess_Later:
+  Test Accuracy: 0.9814
+  Train Accuracy: 1.0000
+  AUC Score: 0.9901
+  Class Distribution: {'0': 1570, '1': 44}
+  Imbalance Ratio: 35.7:1
+  Training Time: 0.1s
+  Features Used: 45
+  Training Samples: 1614
+
+Nhận định và đánh giá_Contractions_Complete:
+  Test Accuracy: 0.9783
+  Train Accuracy: 0.9961
+  AUC Score: 0.8759
+  Class Distribution: {'0': 1564, '1': 50}
+  Imbalance Ratio: 31.3:1
+  Training Time: 0.1s
+  Features Used: 45
+  Training Samples: 1614
+
+Nhận định và đánh giá_CTG_II_Guidance:
+  Test Accuracy: 0.9783
+  Train Accuracy: 0.9985
+  AUC Score: 0.9022
+  Class Distribution: {'0': 1562, '1': 52}
+  Imbalance Ratio: 30.0:1
+  Training Time: 0.1s
+  Features Used: 45
+  Training Samples: 1614
+
+Nhận định và đánh giá_Patient_Pain:
+  Test Accuracy: 0.9721
+  Train Accuracy: 0.9992
+  AUC Score: 0.9123
+  Class Distribution: {'0': 1576, '1': 38}
+  Imbalance Ratio: 41.5:1
+  Training Time: 0.1s
+  Features Used: 45
+  Training Samples: 1614
+
+Nhận định và đánh giá_Position_Unfavorable:
+  Test Accuracy: 0.9659
+  Train Accuracy: 0.9899
+  AUC Score: 0.9798
+  Class Distribution: {'0': 1472, '1': 142}
+  Imbalance Ratio: 10.4:1
+  Training Time: 0.2s
+  Features Used: 45
+  Training Samples: 1614
+
+Kế hoạch (xử trí)_Delivery_Prep_Hemorrhage:
+  Test Accuracy: 0.9659
+  Train Accuracy: 0.9992
+  AUC Score: 0.8348
+  Class Distribution: {'0': 1564, '1': 50}
+  Imbalance Ratio: 31.3:1
+  Training Time: 0.2s
+  Features Used: 45
+  Training Samples: 1614
+
+Nhận định và đánh giá_CTG_II_Position_Unfavorable:
+  Test Accuracy: 0.9598
+  Train Accuracy: 0.9961
+  AUC Score: 0.9429
+  Class Distribution: {'0': 1550, '1': 64}
+  Imbalance Ratio: 24.2:1
+  Training Time: 0.1s
+  Features Used: 45
+  Training Samples: 1614
+
+Kế hoạch (xử trí)_Fetal_Resuscitation:
+  Test Accuracy: 0.9598
+  Train Accuracy: 0.9946
+  AUC Score: 0.9729
+  Class Distribution: {'0': 1539, '1': 75}
+  Imbalance Ratio: 20.5:1
+  Training Time: 0.2s
+  Features Used: 45
+  Training Samples: 1614
+
+Nhận định và đánh giá_Patient_Stable:
+  Test Accuracy: 0.9567
+  Train Accuracy: 0.9977
+  AUC Score: 0.9517
+  Class Distribution: {'0': 1473, '1': 141}
+  Imbalance Ratio: 10.4:1
+  Training Time: 0.2s
+  Features Used: 45
+  Training Samples: 1614
+
+Kế hoạch (xử trí)_Notify_Attending:
+  Test Accuracy: 0.9505
+  Train Accuracy: 0.9946
+  AUC Score: 0.8186
+  Class Distribution: {'0': 1550, '1': 64}
+  Imbalance Ratio: 24.2:1
+  Training Time: 0.1s
+  Features Used: 45
+  Training Samples: 1614
+
+Kế hoạch (xử trí)_Prevent_Hemorrhage:
+  Test Accuracy: 0.9226
+  Train Accuracy: 0.9969
+  AUC Score: 0.9142
+  Class Distribution: {'0': 1449, '1': 165}
+  Imbalance Ratio: 8.8:1
+  Training Time: 0.2s
+  Features Used: 45
+  Training Samples: 1614
+
+Kế hoạch (xử trí)_Monitor_Labor:
+  Test Accuracy: 0.8452
+  Train Accuracy: 0.9830
+  AUC Score: 0.8784
+  Class Distribution: {'0': 1187, '1': 427}
+  Imbalance Ratio: 2.8:1
+  Training Time: 0.2s
+  Features Used: 45
+  Training Samples: 1614
+
+Kế hoạch (xử trí)_Prepare_Delivery:
+  Test Accuracy: 0.8421
+  Train Accuracy: 0.9884
+  AUC Score: 0.8622
+  Class Distribution: {'0': 1351, '1': 263}
+  Imbalance Ratio: 5.1:1
+  Training Time: 0.2s
+  Features Used: 45
+  Training Samples: 1614
+
+Kế hoạch (xử trí)_Neonatal_Resuscitation:
+  Test Accuracy: 0.8421
+  Train Accuracy: 0.9884
+  AUC Score: 0.8622
+  Class Distribution: {'0': 1351, '1': 263}
+  Imbalance Ratio: 5.1:1
+  Training Time: 0.2s
+  Features Used: 45
+  Training Samples: 1614
+
+Kế hoạch (xử trí)_Multiple_Interventions:
+  Test Accuracy: 0.8390
+  Train Accuracy: 0.9868
+  AUC Score: 0.8583
+  Class Distribution: {'0': 1286, '1': 328}
+  Imbalance Ratio: 3.9:1
+  Training Time: 0.2s
+  Features Used: 45
+  Training Samples: 1614
+
+Nhận định và đánh giá_CTG_Group_II:
+  Test Accuracy: 0.8266
+  Train Accuracy: 0.9814
+  AUC Score: 0.8765
+  Class Distribution: {'0': 1160, '1': 454}
+  Imbalance Ratio: 2.6:1
+  Training Time: 0.1s
+  Features Used: 45
+  Training Samples: 1614
+
+Nhận định và đánh giá_Guidance_Push:
+  Test Accuracy: 0.8266
+  Train Accuracy: 0.9876
+  AUC Score: 0.8799
+  Class Distribution: {'0': 1349, '1': 265}
+  Imbalance Ratio: 5.1:1
+  Training Time: 0.1s
+  Features Used: 45
+  Training Samples: 1614
+
+Nhận định và đánh giá_CTG_Abnormal:
+  Test Accuracy: 0.8266
+  Train Accuracy: 0.9814
+  AUC Score: 0.8765
+  Class Distribution: {'0': 1160, '1': 454}
+  Imbalance Ratio: 2.6:1
+  Training Time: 0.2s
+  Features Used: 45
+  Training Samples: 1614
+
+Nhận định và đánh giá_CTG_Group_I:
+  Test Accuracy: 0.8204
+  Train Accuracy: 0.9822
+  AUC Score: 0.8794
+  Class Distribution: {'0': 1124, '1': 490}
+  Imbalance Ratio: 2.3:1
+  Training Time: 0.2s
+  Features Used: 45
+  Training Samples: 1614
+
+Kế hoạch (xử trí)_Report_Doctor:
+  Test Accuracy: 0.7926
+  Train Accuracy: 0.9729
+  AUC Score: 0.8339
+  Class Distribution: {'0': 1129, '1': 485}
+  Imbalance Ratio: 2.3:1
+  Training Time: 0.2s
+  Features Used: 45
+  Training Samples: 1614
+
+Kế hoạch (xử trí)_Any_Resuscitation:
+  Test Accuracy: 0.7864
+  Train Accuracy: 0.9915
+  AUC Score: 0.8328
+  Class Distribution: {'0': 1276, '1': 338}
+  Imbalance Ratio: 3.8:1
+  Training Time: 0.2s
+  Features Used: 45
+  Training Samples: 1614
