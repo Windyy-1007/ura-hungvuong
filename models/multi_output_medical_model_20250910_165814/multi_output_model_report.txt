@@ -1,0 +1,45 @@
+MULTI-OUTPUT MEDICAL PREDICTION MODEL - EXPORT SUMMARY
+======================================================================
+Export Date: 2025-09-10 16:58:14
+Model Type: Multi-Output Random Forest
+Total Target Labels: 11
+Total Features: 55
+Training Samples: 1614
+Data Source: C:\Projects\URA\ura-hungvuong\data\dataset_long_format_normalized_labeled.csv
+
+OVERALL PERFORMANCE SUMMARY:
+----------------------------------------
+Average Train Accuracy: 0.9898
+Average Test Accuracy: 0.9330
+Average AUC Score: 0.9313
+Training Time: 2.1s
+
+TARGETS BY CATEGORY:
+------------------------------
+Assessment Targets: 0
+Treatment Targets: 11
+
+INDIVIDUAL TARGET PERFORMANCE:
+------------------------------------------------------------
+Target                                   Test Acc   AUC     
+------------------------------------------------------------
+Reassess_Later                           0.9814     0.9635  
+Delivery_Prep_Hemorrhage                 0.9783     0.9512  
+Fetal_Resuscitation                      0.9690     0.9797  
+Prepare_Delivery                         0.9536     0.9672  
+Neonatal_Resuscitation                   0.9536     0.9672  
+Notify_Attending                         0.9505     0.7812  
+Prevent_Hemorrhage                       0.9381     0.9288  
+Any_Resuscitation                        0.9164     0.9576  
+Multiple_Interventions                   0.9133     0.9509  
+Monitor_Labor                            0.8638     0.9064  
+Report_Doctor                            0.8452     0.8901  
+
+CONFIGURATION USED:
+------------------------------
+Model: RandomForest
+Estimators: 150
+Max Depth: 20
+Test Size: 0.2
+Min Samples: 10
+Max Imbalance: 50

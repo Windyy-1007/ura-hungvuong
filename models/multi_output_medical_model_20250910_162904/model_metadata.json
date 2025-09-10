@@ -1,0 +1,490 @@
+{
+  "export_info": {
+    "timestamp": "20250910_162904",
+    "export_date": "2025-09-10T16:29:05.154689",
+    "model_type": "multi_output_random_forest",
+    "total_targets": 11,
+    "total_features": 55,
+    "data_source": "C:\\Projects\\URA\\ura-hungvuong\\data\\dataset_long_format_normalized_labeled.csv"
+  },
+  "performance": {
+    "overall_train_accuracy": 0.9897894514470813,
+    "overall_test_accuracy": 0.9330143540669856,
+    "overall_auc_score": 0.9312551124881132,
+    "training_time": 1.7265682220458984
+  },
+  "target_metrics": {
+    "Kế hoạch (xử trí)_Monitor_Labor": {
+      "train_accuracy": 0.9907048799380326,
+      "test_accuracy": 0.8637770897832817,
+      "auc_score": 0.9064365954862867,
+      "classification_report": {
+        "0": {
+          "precision": 0.8862745098039215,
+          "recall": 0.9377593360995851,
+          "f1-score": 0.9112903225806451,
+          "support": 241.0
+        },
+        "1": {
+          "precision": 0.7794117647058824,
+          "recall": 0.6463414634146342,
+          "f1-score": 0.7066666666666667,
+          "support": 82.0
+        },
+        "accuracy": 0.8637770897832817,
+        "macro avg": {
+          "precision": 0.8328431372549019,
+          "recall": 0.7920503997571096,
+          "f1-score": 0.8089784946236559,
+          "support": 323.0
+        },
+        "weighted avg": {
+          "precision": 0.8591452680143264,
+          "recall": 0.8637770897832817,
+          "f1-score": 0.8593425213888611,
+          "support": 323.0
+        }
+      }
+    },
+    "Kế hoạch (xử trí)_Report_Doctor": {
+      "train_accuracy": 0.965143299767622,
+      "test_accuracy": 0.8452012383900929,
+      "auc_score": 0.8900613275613276,
+      "classification_report": {
+        "0": {
+          "precision": 0.8625,
+          "recall": 0.9241071428571429,
+          "f1-score": 0.8922413793103449,
+          "support": 224.0
+        },
+        "1": {
+          "precision": 0.7951807228915663,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.7252747252747253,
+          "support": 99.0
+        },
+        "accuracy": 0.8452012383900929,
+        "macro avg": {
+          "precision": 0.8288403614457831,
+          "recall": 0.7953869047619048,
+          "f1-score": 0.8087580522925351,
+          "support": 323.0
+        },
+        "weighted avg": {
+          "precision": 0.8418665373568579,
+          "recall": 0.8452012383900929,
+          "f1-score": 0.8410658413861147,
+          "support": 323.0
+        }
+      }
+    },
+    "Kế hoạch (xử trí)_Prepare_Delivery": {
+      "train_accuracy": 0.9852827265685515,
+      "test_accuracy": 0.9535603715170279,
+      "auc_score": 0.9672320217096337,
+      "classification_report": {
+        "0": {
+          "precision": 0.9702602230483272,
+          "recall": 0.9738805970149254,
+          "f1-score": 0.9720670391061452,
+          "support": 268.0
+        },
+        "1": {
+          "precision": 0.8703703703703703,
+          "recall": 0.8545454545454545,
+          "f1-score": 0.8623853211009175,
+          "support": 55.0
+        },
+        "accuracy": 0.9535603715170279,
+        "macro avg": {
+          "precision": 0.9203152967093488,
+          "recall": 0.9142130257801899,
+          "f1-score": 0.9172261801035313,
+          "support": 323.0
+        },
+        "weighted avg": {
+          "precision": 0.953251115007189,
+          "recall": 0.9535603715170279,
+          "f1-score": 0.9533905855758432,
+          "support": 323.0
+        }
+      }
+    },
+    "Kế hoạch (xử trí)_Neonatal_Resuscitation": {
+      "train_accuracy": 0.9852827265685515,
+      "test_accuracy": 0.9535603715170279,
+      "auc_score": 0.9672320217096337,
+      "classification_report": {
+        "0": {
+          "precision": 0.9702602230483272,
+          "recall": 0.9738805970149254,
+          "f1-score": 0.9720670391061452,
+          "support": 268.0
+        },
+        "1": {
+          "precision": 0.8703703703703703,
+          "recall": 0.8545454545454545,
+          "f1-score": 0.8623853211009175,
+          "support": 55.0
+        },
+        "accuracy": 0.9535603715170279,
+        "macro avg": {
+          "precision": 0.9203152967093488,
+          "recall": 0.9142130257801899,
+          "f1-score": 0.9172261801035313,
+          "support": 323.0
+        },
+        "weighted avg": {
+          "precision": 0.953251115007189,
+          "recall": 0.9535603715170279,
+          "f1-score": 0.9533905855758432,
+          "support": 323.0
+        }
+      }
+    },
+    "Kế hoạch (xử trí)_Prevent_Hemorrhage": {
+      "train_accuracy": 0.9969016266460109,
+      "test_accuracy": 0.9380804953560371,
+      "auc_score": 0.9288401253918496,
+      "classification_report": {
+        "0": {
+          "precision": 0.9383116883116883,
+          "recall": 0.996551724137931,
+          "f1-score": 0.9665551839464883,
+          "support": 290.0
+        },
+        "1": {
+          "precision": 0.9333333333333333,
+          "recall": 0.42424242424242425,
+          "f1-score": 0.5833333333333334,
+          "support": 33.0
+        },
+        "accuracy": 0.9380804953560371,
+        "macro avg": {
+          "precision": 0.9358225108225109,
+          "recall": 0.7103970741901776,
+          "f1-score": 0.7749442586399109,
+          "support": 323.0
+        },
+        "weighted avg": {
+          "precision": 0.9378030638092558,
+          "recall": 0.9380804953560371,
+          "f1-score": 0.927402487134618,
+          "support": 323.0
+        }
+      }
+    },
+    "Kế hoạch (xử trí)_Fetal_Resuscitation": {
+      "train_accuracy": 0.9969016266460109,
+      "test_accuracy": 0.9690402476780186,
+      "auc_score": 0.9796578825705039,
+      "classification_report": {
+        "0": {
+          "precision": 0.9716088328075709,
+          "recall": 0.9967637540453075,
+          "f1-score": 0.9840255591054313,
+          "support": 309.0
+        },
+        "1": {
+          "precision": 0.8333333333333334,
+          "recall": 0.35714285714285715,
+          "f1-score": 0.5,
+          "support": 14.0
+        },
+        "accuracy": 0.9690402476780186,
+        "macro avg": {
+          "precision": 0.9024710830704521,
+          "recall": 0.6769533055940823,
+          "f1-score": 0.7420127795527156,
+          "support": 323.0
+        },
+        "weighted avg": {
+          "precision": 0.9656154675052819,
+          "recall": 0.9690402476780186,
+          "f1-score": 0.9630461231070535,
+          "support": 323.0
+        }
+      }
+    },
+    "Kế hoạch (xử trí)_Notify_Attending": {
+      "train_accuracy": 0.9992254066615027,
+      "test_accuracy": 0.9504643962848297,
+      "auc_score": 0.781163434903047,
+      "classification_report": {
+        "0": {
+          "precision": 0.95,
+          "recall": 1.0,
+          "f1-score": 0.9743589743589743,
+          "support": 304.0
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 0.15789473684210525,
+          "f1-score": 0.2727272727272727,
+          "support": 19.0
+        },
+        "accuracy": 0.9504643962848297,
+        "macro avg": {
+          "precision": 0.975,
+          "recall": 0.5789473684210527,
+          "f1-score": 0.6235431235431235,
+          "support": 323.0
+        },
+        "weighted avg": {
+          "precision": 0.9529411764705883,
+          "recall": 0.9504643962848297,
+          "f1-score": 0.9330865213218154,
+          "support": 323.0
+        }
+      }
+    },
+    "Kế hoạch (xử trí)_Reassess_Later": {
+      "train_accuracy": 0.9976762199845082,
+      "test_accuracy": 0.9814241486068112,
+      "auc_score": 0.9634920634920635,
+      "classification_report": {
+        "0": {
+          "precision": 0.9843260188087775,
+          "recall": 0.9968253968253968,
+          "f1-score": 0.9905362776025236,
+          "support": 315.0
+        },
+        "1": {
+          "precision": 0.75,
+          "recall": 0.375,
+          "f1-score": 0.5,
+          "support": 8.0
+        },
+        "accuracy": 0.9814241486068112,
+        "macro avg": {
+          "precision": 0.8671630094043887,
+          "recall": 0.6859126984126984,
+          "f1-score": 0.7452681388012619,
+          "support": 323.0
+        },
+        "weighted avg": {
+          "precision": 0.978522278404845,
+          "recall": 0.9814241486068112,
+          "f1-score": 0.9783867722749069,
+          "support": 323.0
+        }
+      }
+    },
+    "Kế hoạch (xử trí)_Delivery_Prep_Hemorrhage": {
+      "train_accuracy": 0.9984508133230054,
+      "test_accuracy": 0.978328173374613,
+      "auc_score": 0.9511754068716094,
+      "classification_report": {
+        "0": {
+          "precision": 0.9813084112149533,
+          "recall": 0.9968354430379747,
+          "f1-score": 0.989010989010989,
+          "support": 316.0
+        },
+        "1": {
+          "precision": 0.5,
+          "recall": 0.14285714285714285,
+          "f1-score": 0.2222222222222222,
+          "support": 7.0
+        },
+        "accuracy": 0.978328173374613,
+        "macro avg": {
+          "precision": 0.7406542056074766,
+          "recall": 0.5698462929475587,
+          "f1-score": 0.6056166056166057,
+          "support": 323.0
+        },
+        "weighted avg": {
+          "precision": 0.9708775787737622,
+          "recall": 0.978328173374613,
+          "f1-score": 0.9723932757988485,
+          "support": 323.0
+        }
+      }
+    },
+    "Kế hoạch (xử trí)_Any_Resuscitation": {
+      "train_accuracy": 0.9860573199070488,
+      "test_accuracy": 0.9164086687306502,
+      "auc_score": 0.9576058427479174,
+      "classification_report": {
+        "0": {
+          "precision": 0.9315589353612167,
+          "recall": 0.9645669291338582,
+          "f1-score": 0.9477756286266924,
+          "support": 254.0
+        },
+        "1": {
+          "precision": 0.85,
+          "recall": 0.7391304347826086,
+          "f1-score": 0.7906976744186046,
+          "support": 69.0
+        },
+        "accuracy": 0.9164086687306502,
+        "macro avg": {
+          "precision": 0.8907794676806083,
+          "recall": 0.8518486819582334,
+          "f1-score": 0.8692366515226485,
+          "support": 323.0
+        },
+        "weighted avg": {
+          "precision": 0.9141361287360652,
+          "recall": 0.9164086687306502,
+          "f1-score": 0.9142202761797635,
+          "support": 323.0
+        }
+      }
+    },
+    "Kế hoạch (xử trí)_Multiple_Interventions": {
+      "train_accuracy": 0.9860573199070488,
+      "test_accuracy": 0.913312693498452,
+      "auc_score": 0.9509095149253731,
+      "classification_report": {
+        "0": {
+          "precision": 0.9318181818181818,
+          "recall": 0.9609375,
+          "f1-score": 0.9461538461538461,
+          "support": 256.0
+        },
+        "1": {
+          "precision": 0.8305084745762712,
+          "recall": 0.7313432835820896,
+          "f1-score": 0.7777777777777778,
+          "support": 67.0
+        },
+        "accuracy": 0.913312693498452,
+        "macro avg": {
+          "precision": 0.8811633281972264,
+          "recall": 0.8461403917910448,
+          "f1-score": 0.861965811965812,
+          "support": 323.0
+        },
+        "weighted avg": {
+          "precision": 0.9108034747432344,
+          "recall": 0.913312693498452,
+          "f1-score": 0.9112275409489032,
+          "support": 323.0
+        }
+      }
+    }
+  },
+  "feature_columns": [
+    "Năm sinh",
+    "Para (điền 4 số)",
+    "Tiền căn bệnh lý",
+    "Khởi phát chuyển dạ (1: Có, 0: Không)",
+    "Chẩn đoán chuyển dạ hoạt động",
+    "Ngày ối vỡ",
+    "Giờ ối vỡ",
+    "Yếu tố nguy cơ",
+    "Ngày chuyển dạ hoạt động (xx/yy/zzzz)",
+    "hour",
+    "Ngày",
+    "Giờ",
+    "Bạn đồng hành (1: Có, 0: Không)",
+    "Đánh giá mức độ đau (VAS) (Điền số nguyên)",
+    "Nước uống vào (1: Có, 0: Không)",
+    "Ăn",
+    "Mạch (nhập số nguyên)",
+    "HA tâm thu (nhập số nguyên)",
+    "HA tâm trương (nhập số nguyên)",
+    "Nhiệt độ (nhập số nguyên)",
+    "Nước tiểu",
+    "TT cơ bản (nhập số nguyên)",
+    "CTG",
+    "Nước ối (V: ối vỡ/Vg: Vàng)",
+    "Kiểu thế",
+    "Bướu HT",
+    "Chồng khớp",
+    "Các cơn co TC/10 phút (điền số nguyên)",
+    "Thời gian của các cơn co TC (điền số nguyên)",
+    "Cổ TC (KH: X)",
+    "Nếu 10: 10X hay 10R? (Không phải 10 xin bỏ qua)",
+    "Độ lọt (KH: O)",
+    "Oxytocin (số hoặc số la mã)",
+    "Thuốc",
+    "Thuốc gì?",
+    "Truyền dịch",
+    "Nhận định và đánh giá_CTG_Group_I",
+    "Nhận định và đánh giá_CTG_Group_II",
+    "Nhận định và đánh giá_CTG_Group_III",
+    "Nhận định và đánh giá_Guidance_Push",
+    "Nhận định và đánh giá_Patient_Stable",
+    "Nhận định và đánh giá_Position_Unfavorable",
+    "Nhận định và đánh giá_Multipara",
+    "Nhận định và đánh giá_Contractions_Complete",
+    "Nhận định và đánh giá_Contractions_Stopped",
+    "Nhận định và đánh giá_Fever",
+    "Nhận định và đánh giá_Pelvis_Disproportion",
+    "Nhận định và đánh giá_Not_Dangerous",
+    "Nhận định và đánh giá_Monitor_Delivery",
+    "Nhận định và đánh giá_Patient_Pain",
+    "Nhận định và đánh giá_Fetal_Resuscitation",
+    "Nhận định và đánh giá_Amniotic_Fluid_Poor",
+    "Nhận định và đánh giá_CTG_II_Position_Unfavorable",
+    "Nhận định và đánh giá_CTG_II_Guidance",
+    "Nhận định và đánh giá_CTG_Abnormal"
+  ],
+  "target_columns": [
+    "Kế hoạch (xử trí)_Monitor_Labor",
+    "Kế hoạch (xử trí)_Report_Doctor",
+    "Kế hoạch (xử trí)_Prepare_Delivery",
+    "Kế hoạch (xử trí)_Neonatal_Resuscitation",
+    "Kế hoạch (xử trí)_Prevent_Hemorrhage",
+    "Kế hoạch (xử trí)_Fetal_Resuscitation",
+    "Kế hoạch (xử trí)_Notify_Attending",
+    "Kế hoạch (xử trí)_Reassess_Later",
+    "Kế hoạch (xử trí)_Delivery_Prep_Hemorrhage",
+    "Kế hoạch (xử trí)_Any_Resuscitation",
+    "Kế hoạch (xử trí)_Multiple_Interventions"
+  ],
+  "config_used": {
+    "model_config": {
+      "algorithm": "RandomForest",
+      "parameters": {
+        "n_estimators": 150,
+        "max_depth": 20,
+        "min_samples_split": 5,
+        "min_samples_leaf": 2,
+        "class_weight": "balanced",
+        "random_state": 42,
+        "n_jobs": -1
+      }
+    },
+    "training_config": {
+      "test_size": 0.2,
+      "min_samples": 10,
+      "max_imbalance": 50,
+      "cross_validation_folds": 5
+    },
+    "feature_config": {
+      "use_all_features": true,
+      "exclude_features": [
+        "Dấu thời gian",
+        "Mã bệnh nhân",
+        "Họ và tên",
+        "Nhận định và đánh giá",
+        "Kế hoạch (xử trí)",
+        "Sanh",
+        "Giờ sanh (chỉ điền khi không phải sanh mổ)",
+        "Lý do mổ (nếu có):",
+        "Giới tính em bé",
+        "Apgar (nhập phân số số nguyên X/Y) (ví dụ: 1/5)",
+        "Cân nặng"
+      ]
+    },
+    "target_config": {
+      "predict_assessments": false,
+      "predict_treatments": true,
+      "custom_targets": [],
+      "exclude_targets": []
+    },
+    "output_config": {
+      "models_dir": "models",
+      "save_individual_models": true,
+      "save_preprocessing": true,
+      "save_metadata": true,
+      "save_summary_report": true,
+      "create_prediction_interface": true
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "model_config": {
+    "algorithm": "RandomForest",
+    "parameters": {
+      "n_estimators": 150,
+      "max_depth": 20,
+      "min_samples_split": 5,
+      "min_samples_leaf": 2,
+      "class_weight": "balanced",
+      "random_state": 42,
+      "n_jobs": -1
+    }
+  },
+  "training_config": {
+    "test_size": 0.2,
+    "min_samples": 10,
+    "max_imbalance": 50,
+    "cross_validation_folds": 5
+  },
+  "feature_config": {
+    "use_all_features": true,
+    "exclude_features": [
+      "Dấu thời gian",
+      "Mã bệnh nhân",
+      "Họ và tên",
+      "Nhận định và đánh giá",
+      "Kế hoạch (xử trí)",
+      "Sanh",
+      "Giờ sanh (chỉ điền khi không phải sanh mổ)",
+      "Lý do mổ (nếu có):",
+      "Giới tính em bé",
+      "Apgar (nhập phân số số nguyên X/Y) (ví dụ: 1/5)",
+      "Cân nặng"
+    ]
+  },
+  "target_config": {
+    "predict_assessments": false,
+    "predict_treatments": true,
+    "custom_targets": [],
+    "exclude_targets": []
+  },
+  "output_config": {
+    "models_dir": "models",
+    "save_individual_models": true,
+    "save_preprocessing": true,
+    "save_metadata": true,
+    "save_summary_report": true,
+    "create_prediction_interface": true
+  }
+}
