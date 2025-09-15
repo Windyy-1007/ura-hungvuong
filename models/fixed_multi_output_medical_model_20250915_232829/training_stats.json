@@ -1,0 +1,9 @@
+{
+  "training_time": 3.3144888877868652,
+  "train_accuracy": 0.9721146398140976,
+  "test_accuracy": 0.631578947368421,
+  "n_train_samples": 1291,
+  "n_test_samples": 323,
+  "n_features": 47,
+  "n_targets": 32
+}

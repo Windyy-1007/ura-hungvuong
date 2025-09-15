@@ -1,0 +1,4 @@
+Năm sinh,Para (điền 4 số),Tiền căn bệnh lý,"Khởi phát chuyển dạ (1: Có, 0: Không)",hour,"Bạn đồng hành (1: Có, 0: Không)",Đánh giá mức độ đau (VAS) (Điền số nguyên),"Nước uống vào (1: Có, 0: Không)",Ăn,Mạch (nhập số nguyên),HA tâm thu (nhập số nguyên),HA tâm trương (nhập số nguyên),Nhiệt độ (nhập số nguyên),Nước tiểu,TT cơ bản (nhập số nguyên),CTG,Nước ối (V: ối vỡ/Vg: Vàng),Kiểu thế,Bướu HT,Chồng khớp,Các cơn co TC/10 phút (điền số nguyên),Thời gian của các cơn co TC (điền số nguyên),Cổ TC (KH: X),Độ lọt (KH: O),Oxytocin (số hoặc số la mã),Thuốc,Truyền dịch
+1993,0,,0.0,15,1.0,3.0,1.0,0.0,90.0,120.0,70.0,37.0,P-,140.0,I,Đ,CC TN,o,o,3.0,40.0,5.0,-3.0,,0.0,1.0
+1983,2002,Bình thường,0.0,15,1.0,3.0,1.0,0.0,90.0,120.0,70.0,36.8,"P-, A-",140.0,I,V,CC TN,o,o,2.0,30.0,6.0,-3.0,VIII,0.0,0.0
+1984,3003,Mổ nội soi ruột thừa viêm 2022,0.0,17,1.0,3.0,0.0,0.0,80.0,120.0,70.0,37.3,P-,150.0,II,"T, Đ",CC PN,o,o,5.0,60.0,5.0,-3.0,,0.0,0.0
