@@ -1,0 +1,5 @@
+﻿Năm sinh,Para (điền 4 số),Tiền căn bệnh lý,"Khởi phát chuyển dạ (1: Có, 0: Không)",hour,"Bạn đồng hành (1: Có, 0: Không)",Đánh giá mức độ đau (VAS) (Điền số nguyên),"Nước uống vào (1: Có, 0: Không)",Ăn,Mạch (nhập số nguyên),HA tâm thu (nhập số nguyên),HA tâm trương (nhập số nguyên),Nhiệt độ (nhập số nguyên),Nước tiểu,TT cơ bản (nhập số nguyên),CTG,Nước ối (V: ối vỡ/Vg: Vàng),Kiểu thế,Bướu HT,Chồng khớp,Các cơn co TC/10 phút (điền số nguyên),Thời gian của các cơn co TC (điền số nguyên),Cổ TC (KH: X),Độ lọt (KH: O),Oxytocin (số hoặc số la mã),Thuốc,Truyền dịch
+1990,0,Tăng huyết áp,1.0,3,0.0,9.0,0.0,0.0,120.0,180.0,110.0,38.5,P+,80.0,III,Vg,CC PN,+,+,6.0,90.0,8.0,-1.0,V,1.0,1.0
+1980,4004,Xuất huyết sau sinh lần trước,1.0,22,1.0,8.0,0.0,0.0,110.0,95.0,60.0,36.0,A-,165.0,II,V,CC TN,o,o,4.0,50.0,9.0,0.0,,0.0,1.0
+1995,1001,Không,1.0,4,0.0,10.0,0.0,0.0,130.0,160.0,100.0,39.0,P-,60.0,III,Vg,CC PN,+,+,7.0,120.0,10.0,+1.0,X,1.0,1.0
+1985,0,"Cao huyết áp, Tiểu đường thai kỳ",1.0,2,0.0,10.0,0.0,0.0,150.0,200.0,120.0,40.0,P+++,50.0,III,Vg,CC PN,++,++,8.0,150.0,10.0,+2.0,X,1.0,1.0
